@@ -1,0 +1,9 @@
+{
+  "name": "mattpocock-skills",
+  "skills": [
+    "./skills/productivity/caveman",
+    "./skills/engineering/diagnose",
+    "./skills/productivity/write-a-skill",
+    "./skills/engineering/zoom-out"
+  ]
+}

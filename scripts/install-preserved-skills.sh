@@ -8,6 +8,7 @@ BACKUP_ROOT="${XDG_STATE_HOME:-$HOME/.local/state}/mattpostcock-skills/backups/$
 SKILL_NAMES=(
   caveman
   diagnose
+  review
   write-a-skill
   zoom-out
 )
@@ -16,6 +17,7 @@ skill_rel_path() {
   case "$1" in
     caveman) printf '%s\n' "skills/productivity/caveman" ;;
     diagnose) printf '%s\n' "skills/engineering/diagnose" ;;
+    review) printf '%s\n' "skills/in-progress/review" ;;
     write-a-skill) printf '%s\n' "skills/productivity/write-a-skill" ;;
     zoom-out) printf '%s\n' "skills/engineering/zoom-out" ;;
     *) printf 'unknown skill: %s\n' "$1" >&2; return 1 ;;

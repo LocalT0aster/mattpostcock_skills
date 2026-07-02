@@ -6,6 +6,7 @@ Preserved skills:
 
 - `caveman`
 - `diagnose`
+- `review`
 - `write-a-skill`
 - `zoom-out`
 

@@ -28,6 +28,8 @@ const SKILLS: Array<{ name: string; rel: string }> = [
   { name: "caveman", rel: "skills/productivity/caveman" },
   { name: "diagnose", rel: "skills/engineering/diagnose" },
   { name: "review", rel: "skills/in-progress/review" },
+  { name: "to-issues", rel: "skills/in-progress/to-issues" },
+  { name: "to-prd", rel: "skills/in-progress/to-prd" },
   { name: "write-a-skill", rel: "skills/productivity/write-a-skill" },
   { name: "zoom-out", rel: "skills/engineering/zoom-out" },
 ];

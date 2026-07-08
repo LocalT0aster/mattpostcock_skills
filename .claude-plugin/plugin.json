@@ -4,6 +4,8 @@
     "./skills/productivity/caveman",
     "./skills/engineering/diagnose",
     "./skills/in-progress/review",
+    "./skills/in-progress/to-issues",
+    "./skills/in-progress/to-prd",
     "./skills/productivity/write-a-skill",
     "./skills/engineering/zoom-out"
   ]

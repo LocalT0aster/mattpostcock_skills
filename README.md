@@ -7,6 +7,8 @@ Preserved skills:
 - `caveman`
 - `diagnose`
 - `review`
+- `to-issues`
+- `to-prd`
 - `write-a-skill`
 - `zoom-out`
 
@@ -43,7 +45,7 @@ What the installer does:
 - Clones/pulls the repo into a stable per-user path
   (`~/.local/share/mattpostcock_skills` on Linux/macOS,
   `%LOCALAPPDATA%\mattpostcock_skills` on Windows).
-- Links the 5 skills into `~/.agents/skills` (opencode's skill dir).
+- Links the 7 skills into `~/.agents/skills` (opencode's skill dir).
 - Backs up any pre-existing real skill dir to
   `~/.local/state/mattpostcock-skills/backups/<timestamp>/`.
 - On Windows without Developer Mode/admin, falls back to copying the skill

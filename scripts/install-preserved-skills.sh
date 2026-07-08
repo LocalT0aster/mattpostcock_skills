@@ -9,6 +9,8 @@ SKILL_NAMES=(
   caveman
   diagnose
   review
+  to-issues
+  to-prd
   write-a-skill
   zoom-out
 )
@@ -18,6 +20,8 @@ skill_rel_path() {
     caveman) printf '%s\n' "skills/productivity/caveman" ;;
     diagnose) printf '%s\n' "skills/engineering/diagnose" ;;
     review) printf '%s\n' "skills/in-progress/review" ;;
+    to-issues) printf '%s\n' "skills/in-progress/to-issues" ;;
+    to-prd) printf '%s\n' "skills/in-progress/to-prd" ;;
     write-a-skill) printf '%s\n' "skills/productivity/write-a-skill" ;;
     zoom-out) printf '%s\n' "skills/engineering/zoom-out" ;;
     *) printf 'unknown skill: %s\n' "$1" >&2; return 1 ;;
